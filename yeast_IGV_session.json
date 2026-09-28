@@ -1,0 +1,92 @@
+{
+	"version": "3.8.8",
+	"showSampleNames": false,
+	"reference": {
+		"id": "sacCer3",
+		"name": "S. cerevisiae (sacCer3)",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit",
+		"twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
+		"nameSet": "ucsc",
+		"wholeGenomeView": true,
+		"description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
+		"blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
+		"chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
+		"cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
+		"chromosomeOrder": [
+			"chrI",
+			"chrII",
+			"chrIII",
+			"chrIV",
+			"chrV",
+			"chrVI",
+			"chrVII",
+			"chrVIII",
+			"chrIX",
+			"chrX",
+			"chrXI",
+			"chrXII",
+			"chrXIII",
+			"chrXIV",
+			"chrXV",
+			"chrXVI"
+		],
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chrom.sizes.txt",
+		"hubs": [
+			"https://igv.org/genomes/hubs/sacCer3/hub.txt",
+			"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt"
+		]
+	},
+	"locus": "all",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"url": "https://github.com/VanBortleLab/RNApolymerase_metamap_yeast/raw/refs/heads/main/Pol2/Pol2_median_counts_normalized.bw",
+			"name": "Pol2_median_counts_normalized.bw",
+			"filename": "Pol2_median_counts_normalized.bw",
+			"order": 3,
+			"format": "bigwig",
+			"type": "wig"
+		},
+		{
+			"url": "https://github.com/VanBortleLab/RNApolymerase_metamap_yeast/raw/refs/heads/main/Pol3/Pol3_median_counts_normalized.bw",
+			"name": "Pol3_median_counts_normalized.bw",
+			"filename": "Pol3_median_counts_normalized.bw",
+			"order": 4,
+			"format": "bigwig",
+			"type": "wig"
+		},
+		{
+			"url": "https://github.com/VanBortleLab/RNApolymerase_metamap_yeast/raw/refs/heads/main/IgG/IgG_median_counts_normalized.bw",
+			"name": "IgG_median_counts_normalized.bw",
+			"filename": "IgG_median_counts_normalized.bw",
+			"order": 5,
+			"format": "bigwig",
+			"type": "wig"
+		},
+		{
+			"url": "https://raw.githubusercontent.com/VanBortleLab/RNApolymerase_metamap_yeast/refs/heads/main/MultiClassPromoterYeast.bed",
+			"name": "MultiClassPromoterYeast.bed",
+			"filename": "MultiClassPromoterYeast.bed",
+			"order": 6,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"id": "refseqAll",
+			"name": "Refseq All",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
+			"indexed": false,
+			"format": "refgene",
+			"displayMode": "COLLAPSED",
+			"html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+			"order": 100000,
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}
